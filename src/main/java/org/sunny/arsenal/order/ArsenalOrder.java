@@ -87,6 +87,14 @@ public class ArsenalOrder {
         return CommonUtils.getUUIDString();
     }
 
+    /*
+     * 功能描述:根据自定义属性标签返回值
+     * 〈〉
+     * @Param: [orderCustomType, format]
+     * @Return: java.lang.String
+     * @Author: zhaoyang
+     * @Date: 2020/9/7 7:31 下午
+     */
     private static String getAttrByCustomType(CustomType orderCustomType, Object format) {
 
         switch (orderCustomType) {
